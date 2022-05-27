@@ -1,0 +1,34 @@
+div {
+    background-color: yellow;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+}
+
+/* Seleção por nome id e class */
+#boxe {
+    background: red;
+}
+
+.boxe {
+    background-color: blue;
+}
+
+/* Seleção por atributo */
+
+a[target] {
+    background-color: brown;
+}
+
+a[href="https://www.facebook.com"] {
+    background-color: blue;
+}
+
+a[href^="#"] {
+    background-color: red;
+    color: white;
+}
+
+a[href="#boxe"] {
+    background-color: pink;
+    color: black;
+}

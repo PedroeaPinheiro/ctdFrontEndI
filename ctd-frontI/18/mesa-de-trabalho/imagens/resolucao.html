@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex-Box</title>
+
+    <style type="text/css">
+        * {
+            box-sizing: border-box;
+        }
+        body {
+            background-color: black;
+            color: white;
+            
+        }
+        .conteudo__flexbox{
+            display: flex;
+            width: 50%;
+            justify-content: ;
+            background-color: blue;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        button {
+            width: 150px;
+            height: 50px;
+            background-color: black;
+            color: white;
+            border: 2px solid white;
+            border-radius: 25px;
+        }
+
+        .botao {
+            display: flex;
+            justify-content: center;
+            margin-top: 50px;
+            
+            
+        }
+
+        .imgRadius {
+            display: block;
+            width: 120px;
+            height: 120px;
+        }
+
+        
+        .conteudo__imagem1, .conteudo__imagem2, .conteudo__imagem3 {
+            flex-wrap: nowrap;
+            width:250px;
+            align-content: center;
+        }
+  
+
+
+
+    </style>
+
+</head>
+
+
+<body>
+    <main>
+        <h1>Como Funciona</h1>
+        <div class="conteudo__flexbox">
+            <div class="conteudo__imagem1"><img class="imgRadius" src="imagens/img0.png" alt="">Fique por dentro do calendário de eventos da Social Rock</div>
+            <div class="conteudo__imagem2"><img class="imgRadius" src="imagens/img0.png" alt="">No fim da página clique no botão comprar com desconto.</div>
+            <div class="conteudo__imagem3"><img class="imgRadius" src="imagens/img0.png" alt="">Inscreva-se ou se conecte a conta para finalizar a compra</div>           
+        </div>
+        <div class="botao">
+            <button>Seja membro</button>
+        </div>
+    
+        <h1>#AlbumSocialRock</h1>
+
+
+        <main class=>
+            <div><img src="imagens/img1.png" alt=""></div>
+            <div><img src="imagens/img2.png" alt=""></div>
+            <div><img src="imagens/img3.png" alt=""></div>
+            <div><img src="imagens/img4.png" alt=""></div>
+        </main>
+
+    </main>   
+</body>
+</html>

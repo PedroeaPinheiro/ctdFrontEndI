@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .conteudo {
+            width: 480px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="conteudo">
+        <h1 class="conteudo__titulo">Inscreva-se</h1>
+        <form class="formulario" method="get" action="https://api.sistema.com/cadastrar">
+            <fieldset> 
+                <legend>Faça sua pesquisa</legend>
+                <div class="formulario__group">
+                    <label for="pesquisa">Pesquisar</label>
+                    <input class="formulario__campo" id="pesquisa" type="text" placeholder="O que você gostaria de pesquisar">
+                    <button type="submit">Pesquisar</button>
+                </div>
+            </fieldset>
+           
+            <fieldset>
+                <legend>Informações pessoais</legend>
+                <div class="formulario__grupo">
+                    <h1>Qual seu clube de coração</h1>
+                    <div>
+                        <input type="radio" name="clube" value="flamengo" id="flamengo">
+                        <label for="flamengo">Flamengo</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="clube" value="vasco" id="vasco">
+                        <label for="vasco">Vasco</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="clube" value="bahia" id="bahia">
+                        <label for="bahia">Bahia</label>
+                    </div>
+                </div> 
+    
+                <div class="formulario__grupo">
+                    <h1>Qual seu clube de coração</h1>
+                    <div>
+                        <input type="checkbox" name="clube" value="flamengo" id="flamengo">
+                        <label for="flamengo">Flamengo</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="clube" value="vasco" id="vasco">
+                        <label for="vasco">Vasco</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="clube" value="bahia" id="bahia">
+                        <label for="bahia">Bahia</label>
+                    </div>
+                </div> 
+    
+                <div class="formulario__grupo">
+                    <h1>Qual seu clube de coração</h1>
+                    <select name="select" id="select">
+                        <optgroup label="cariocas">
+                            <option value="flamengo">Flamengo</option>
+                            <option value="flamengo">Vasco</option>
+                        </optgroup>
+                        <option value="flamengo">São Paulo</option>
+                        <option value="flamengo">Palmeiras</option>
+                    </select>
+                </div> 
+            </fieldset>
+    
+        </form>
+    </div>
+    
+</body>
+</html>

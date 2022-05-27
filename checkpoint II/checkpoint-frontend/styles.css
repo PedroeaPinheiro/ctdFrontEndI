@@ -1,0 +1,177 @@
+html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+body {
+    height: 100vh;
+    background-image: url("https://wallpapertag.com/wallpaper/full/3/b/e/587792-download-free-sao-paulo-wallpapers-1920x1200-ipad-retina.jpg");
+    background-size: cover;
+}
+
+header {
+    text-align: center;
+    padding: 1rem;
+    background-color: rgba(0, 0, 0, 0.568);
+}
+
+h1 {
+    margin: 0;
+    font-size: 6.5rem;
+    font-family: 'Lora', serif;
+}
+
+main {
+    font-family: 'Roboto', 'sans-serif';
+    font-size: 1.5rem;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.432);
+}
+
+span {
+    font-weight: 600;
+}
+
+article {
+    display: flex;
+    justify-content: center;
+}
+
+aside {
+    font-family: 'Montserrat';
+    display: flex;
+    justify-content: center;
+    font-size: 4rem;
+    padding: 1rem;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.432);
+}
+
+h2 {
+    margin: 0;
+    text-align: center;
+    font-size: 50px;
+}
+
+section {
+    font-family: 'Roboto', 'sans-serif';
+    font-size: 2rem;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.733);
+    display: flex;
+    justify-content: center;
+}
+ul {
+    list-style: decimal;
+}
+img {
+    width: 7.7rem;
+    height: 7rem;
+    padding: 2rem;
+    margin: 0px;
+}
+
+a{
+    font-style: none;
+    color: #ffffff;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 3rem;
+}
+
+form {
+
+    background-color: rgba(0, 0, 0, 0.815);
+    display: inline-block;
+    width: 60rem;
+    height: 38rem;
+    font-family: 'Lora', serif;
+    font-size: 1.7rem;
+    color: #ffffff;
+    font-weight: bold;
+    margin: 150px;
+    border-radius: 25px;
+    text-align: center;
+}
+
+h3 {
+    margin: 0;
+}
+input {
+    margin: 0.5rem;
+}
+
+.buttons{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+button{
+    padding: 1rem;
+    background-color: hsl(70, 82%, 56%);
+    color: #ffffff;
+    font-weight: bold;
+    border-radius: 20%;
+    margin: 20px;
+    width: 100px
+}
+
+
+footer {
+    justify-content: center;
+    display: flex;
+    font-family: 'Lora', serif;
+    text-align: center;
+    padding: 1.2rem;
+    background-color: rgba(0, 0, 0, 0.568);
+    margin: 0;
+}
+
+.footer__title {
+    color: white;
+    text-align: flex;
+    margin: 0;
+    font-size: 3rem;
+}
+
+@keyframes submitPulse {
+    0% {
+        transform: scale(1.0);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1.0);
+    }
+}
+
+@keyframes resetPulse {
+    0% {
+        transform: scale(1.0);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1.0);
+    }
+}
+
+.button_submit:hover {
+    animation: submitPulse 2s infinite;
+}
+
+.button_reset:hover {
+    animation: resetPulse 2s infinite;
+}
+
+.campo__preencher:hover {
+    transform: scale(1.1);
+    transition-duration: 1.5s;
+}
+
+img:hover {
+    transform: scale(1.05);
+}

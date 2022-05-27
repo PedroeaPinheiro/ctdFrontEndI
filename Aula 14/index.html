@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <style type="text/css">
+        .link {
+            background-color: green;
+            border-radius: 5px;
+            color: white;
+            padding: 5px;
+            text-decoration: none;
+        }
+
+        .link:hover {
+            background-color: orangered;
+        }
+
+        .link:active {
+            background-color: orange;
+        }
+
+        .link:visited {
+            background-color: gray;
+        }
+
+        .formulario__campo {
+            border: 1px solid lightgray;
+            border-radius: 5px;
+            display: block;
+            font-size: 18px;
+            margin: 0 auto;
+            padding: 5px 10px;
+            width: 60%;
+        }
+
+        .formulario__campo:focus {
+            outline: none;
+            box-shadow: 0 0 5px lightblue;
+        }
+
+        .formulario__campo:checked {
+            width: 25px;
+            height: 25px;
+        }
+    </style>
+</head>
+<body>
+    <div class="conteudo">
+        <p class="conteudo__paragrafo">Clique aqui para ir para o <a class="link" href="https://www.google.com.br" target="_blank">Ir para o Google</a></p>
+        <form class="formulario" action="./" method="get">
+            <div>
+                <input class="formulario__campo" name="email" type="email" placeholder="Digite seu e-mail">
+                <label for="email">E-mail</label>
+            </div> 
+            <div>
+                <h2>Deseja assinar a Newsletter</h2>
+                <div>
+                    <input class="formulario__radio" type="radio" name="newsletter" id="sim" cheked>
+                    <laber for="sim">Sim</laber>
+                </div>
+                <div>
+                    <input class="formulario__radio" type="radio" name="newsletter" id="nao">
+                    <label for="nao">Não</label>
+                </div>
+        </form>
+
+        <ul class="lista">
+            <li class="lista__item">Pedro</li>
+        </ul>
+    </div>
+</body>
+</html
